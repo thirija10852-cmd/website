@@ -1,290 +1,178 @@
-
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My Personal Profile</title>
+    <title>Thirija Pr... | IT Student Portfolio</title>
 
-    
+    <meta name="description" content="Explore the portfolio of Thirija Pr..., a first-year Information Technology student at Mount Zion College of Engineering and Technology.">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    
-    <nav class="navbar">
-        <div class="logo">My<span>Profile</span></div>
+    <header class="navbar">
+        <div class="logo">
+            Thirija<span>.</span>
+        </div>
 
-        <div class="nav-links">
+        <nav class="nav-links" aria-label="Main navigation">
             <a href="#home">Home</a>
             <a href="#about">About</a>
-            <a href="#details">Details</a>
+            <a href="#education">Education</a>
             <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
+    <main>
 
-    
-    <section id="home" class="hero">
+        <section class="hero" id="home">
 
-        <div class="hero-text">
+            <div class="hero-text">
 
-            <p class="small-title">WELCOME TO MY SPACE ✨</p>
+                <p class="small-title">WELCOME TO MY PORTFOLIO</p>
 
-            <h1>
-                Hello, I'm
-                <span>Your Name</span>
-            </h1>
+                <h1>
+                    Hello, I'm
+                    <span>Thirija Pr...</span>
+                </h1>
 
-            <p class="description">
-                A creative student who loves learning new things,
-                designing beautiful websites and exploring technology.
-            </p>
+                <h2>First-Year IT Student</h2>
 
-            <div class="buttons">
-                <a href="#about" class="primary-btn">Explore Me</a>
-                <a href="#contact" class="secondary-btn">Contact Me</a>
-            </div>
-
-        </div>
-
-
-        <div class="profile-card">
-
-            <div class="profile-circle">
-                <span>♡</span>
-            </div>
-
-            <h2>Your Name</h2>
-            <p>Student • Creator • Dreamer</p>
-
-            <div class="social-icons">
-                <a href="#">𝓘</a>
-                <a href="#">𝓕</a>
-                <a href="#">𝓛</a>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    
-    <section id="about" class="section">
-
-        <p class="section-label">ABOUT ME</p>
-
-        <h2 class="section-title">
-            A little bit <span>about me</span>
-        </h2>
-
-        <div class="about-container">
-
-            <div class="about-card">
-                <div class="icon">🌸</div>
-
-                <h3>Who I Am</h3>
-
-                <p>
-                    I'm a passionate learner who enjoys creativity,
-                    technology and discovering new ideas.
+                <p class="description">
+                    I am an Information Technology student at Mount Zion
+                    College of Engineering and Technology. I am interested
+                    in programming, website designing, and exploring new
+                    technologies. I enjoy learning new skills and developing
+                    my technical knowledge.
                 </p>
-            </div>
 
-
-            <div class="about-card">
-                <div class="icon">🎀</div>
-
-                <h3>What I Love</h3>
-
-                <p>
-                    I love web designing, coding, music, creativity
-                    and spending time doing things I enjoy.
-                </p>
-            </div>
-
-
-            <div class="about-card">
-                <div class="icon">✨</div>
-
-                <h3>My Goal</h3>
-
-                <p>
-                    My goal is to continuously improve my skills
-                    and create beautiful and useful projects.
-                </p>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    
-    <section id="details" class="section details-section">
-
-        <p class="section-label">PERSONAL DETAILS</p>
-
-        <h2 class="section-title">
-            Know <span>Me Better</span>
-        </h2>
-
-        <div class="details-box">
-
-            <div class="detail">
-                <span class="detail-icon">👤</span>
-                <div>
-                    <small>Name</small>
-                    <p>Your Name</p>
+                <div class="buttons">
+                    <a href="#contact" class="primary-btn">Contact Me</a>
+                    <a href="#projects" class="secondary-btn">My Projects</a>
                 </div>
+
             </div>
 
-            <div class="detail">
-                <span class="detail-icon">🎂</span>
-                <div>
-                    <small>Age</small>
-                    <p>Your Age</p>
+            <div class="profile-card">
+
+                <div class="profile-circle">
+                    <span>TP</span>
                 </div>
+
+                <h2>Thirija Pr...</h2>
+
+                <p>Information Technology</p>
+
+                <p>First-Year Engineering Student</p>
+
+                <div class="social-icons">
+                    <a href="#about" aria-label="About me">A</a>
+                    <a href="#skills" aria-label="My skills">S</a>
+                    <a href="#contact" aria-label="Contact me">C</a>
+                </div>
+
             </div>
 
-            <div class="detail">
-                <span class="detail-icon">🎓</span>
-                <div>
-                    <small>Education</small>
-                    <p>Your Course / School</p>
-                </div>
+        </section>
+
+
+        <section class="section" id="about">
+
+            <p class="section-label">GET TO KNOW ME</p>
+
+            <h2 class="section-title">
+                About <span>Me</span>
+            </h2>
+
+            <div class="about-container">
+
+                <article class="about-card">
+                    <div class="icon">🎓</div>
+                    <h3>My Education</h3>
+                    <p>
+                        I am pursuing my first year of engineering in the
+                        Information Technology department at Mount Zion
+                        College of Engineering and Technology.
+                    </p>
+                </article>
+
+                <article class="about-card">
+                    <div class="icon">💻</div>
+                    <h3>My Interests</h3>
+                    <p>
+                        I am interested in C programming, website designing,
+                        computer applications, and learning new technologies.
+                    </p>
+                </article>
+
+                <article class="about-card">
+                    <div class="icon">🚀</div>
+                    <h3>My Ambition</h3>
+                    <p>
+                        My goal is to improve my technical skills, build
+                        useful projects, and prepare for a successful career
+                        in the IT industry.
+                    </p>
+                </article>
+
             </div>
 
-            <div class="detail">
-                <span class="detail-icon">📍</span>
-                <div>
-                    <small>Location</small>
-                    <p>Your City</p>
+        </section>
+
+
+        <section class="section details-section" id="education">
+
+            <p class="section-label">MY ACADEMIC BACKGROUND</p>
+
+            <h2 class="section-title">
+                My <span>Education</span>
+            </h2>
+
+            <div class="details-box">
+
+                <div class="detail">
+                    <div class="detail-icon">🎓</div>
+                    <div>
+                        <small>College Name</small>
+                        <p>Mount Zion College of Engineering and Technology</p>
+                    </div>
                 </div>
+
+                <div class="detail">
+                    <div class="detail-icon">💻</div>
+                    <div>
+                        <small>Department</small>
+                        <p>Information Technology (IT)</p>
+                    </div>
+                </div>
+
+                <div class="detail">
+                    <div class="detail-icon">📚</div>
+                    <div>
+                        <small>Current Year</small>
+                        <p>First Year</p>
+                    </div>
+                </div>
+
+                <div class="detail">
+                    <div class="detail-icon">🌱</div>
+                    <div>
+                        <small>Learning Focus</small>
+                        <p>Programming and Website Designing</p>
+                    </div>
+                </div>
+
             </div>
 
-            <div class="detail">
-                <span class="detail-icon">💻</span>
-                <div>
-                    <small>Interest</small>
-                    <p>Web Development</p>
-                </div>
-            </div>
-
-            <div class="detail">
-                <span class="detail-icon">💗</span>
-                <div>
-                    <small>Hobby</small>
-                    <p>Your Hobby</p>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    
-    <section id="skills" class="section">
-
-        <p class="section-label">MY SKILLS</p>
-
-        <h2 class="section-title">
-            Things I <span>Enjoy</span>
-        </h2>
-
-        <div class="skills-container">
-
-            <div class="skill-card">
-                <div class="skill-top">
-                    <span>HTML</span>
-                    <span>90%</span>
-                </div>
-                <div class="progress">
-                    <div class="progress-bar html"></div>
-                </div>
-            </div>
-
-
-            <div class="skill-card">
-                <div class="skill-top">
-                    <span>CSS</span>
-                    <span>85%</span>
-                </div>
-                <div class="progress">
-                    <div class="progress-bar css"></div>
-                </div>
-            </div>
-
-
-            <div class="skill-card">
-                <div class="skill-top">
-                    <span>JavaScript</span>
-                    <span>70%</span>
-                </div>
-                <div class="progress">
-                    <div class="progress-bar js"></div>
-                </div>
-            </div>
-
-
-            <div class="skill-card">
-                <div class="skill-top">
-                    <span>Creativity</span>
-                    <span>95%</span>
-                </div>
-                <div class="progress">
-                    <div class="progress-bar creative"></div>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    
-    <section id="contact" class="section contact-section">
-
-        <p class="section-label">GET IN TOUCH</p>
-
-        <h2 class="section-title">
-            Let's <span>Connect</span> 💌
-        </h2>
-
-        <div class="contact-card">
-
-            <p>
-                I'd love to hear from you!
-            </p>
-
-            <div class="contact-item">
-                📧
-                <span>yourmail@example.com</span>
-            </div>
-
-            <div class="contact-item">
-                📱
-                <span>+91 XXXXX XXXXX</span>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    
-    <footer>
-        <p>Made with <span>♥</span> by Your Name</p>
-    </footer>
-
-
-</body>
-</html>
+        </section
